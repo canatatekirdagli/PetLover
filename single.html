@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>PetLover - Pet Care Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Nunito:wght@600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Flaticon Font -->
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Topbar Start -->
+    <div class="container-fluid">
+        <div class="row bg-secondary py-2 px-lg-5">
+            <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center">
+                    <a class="text-white px-3" href="AdminPetLover/gentelella/production/login.html">Admin Girişi</a>
+                    <span class="text-white">|</span>
+                    <a class="text-white px-3" href="contact.html">Yardım</a>
+                    <span class="text-white">|</span>
+                    <a class="text-white pl-3" href="contact.html">Destek</a>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center text-lg-right">
+                <div class="d-inline-flex align-items-center">
+                    <a class="text-white px-3"
+                        href="https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjY4ODA3NjM3LCJjYWxsc2l0ZV9pZCI6MjY5NTQ4NDUzMDcyMDk1MX0%3D">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a class="text-white px-3" href="https://twitter.com/">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a class="text-white px-3" href="https://www.linkedin.com/feed/">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a class="text-white px-3" href="https://www.instagram.com/accounts/login/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a class="text-white pl-3" href="https://www.youtube.com/?hl=tr&gl=TR">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row py-3 px-lg-5">
+            <div class="col-lg-4">
+                <a href="" class="navbar-brand d-none d-lg-block">
+                    <h1 class="m-0 display-5 text-capitalize"><span class="text-primary">Pet</span>Lover</h1>
+                </a>
+            </div>
+            <div class="col-lg-8 text-center text-lg-right">
+                <div class="d-inline-flex align-items-center">
+                    <div class="d-inline-flex flex-column text-center pr-3 border-right">
+                        <h6>Açılış Saati</h6>
+                        <p class="m-0">08:00 - 21:00</p>
+                    </div>
+                    <div class="d-inline-flex flex-column text-center px-3 border-right">
+                        <h6>E-mail Adresimiz</h6>
+                        <p class="m-0">petLover@example.com</p>
+                    </div>
+                    <div class="d-inline-flex flex-column text-center pl-3">
+                        <h6>Bizi Arayın</h6>
+                        <p class="m-0">+012 345 6789</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-lg-5">
+            <a href="" class="navbar-brand d-block d-lg-none">
+                <h1 class="m-0 display-5 text-capitalize font-italic text-white"><span
+                        class="text-primary">Önce</span>Güvenlik</h1>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+                <div class="navbar-nav mr-auto py-0">
+                    <a href="index.html" class="nav-item nav-link">Ana Sayfa</a>
+                    <a href="about.html" class="nav-item nav-link">Hakkımızda</a>
+                    <!--Bu açılır menüyü biz ekledik.(Ürünlerimiz menüsü) -->
+                    <div class="nav-item dropdown">
+                        <a href="service.html" class="nav-link dropdown-toggle" data-toggle="dropdown">Ürünlerimiz</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="service.html" class="dropdown-item">Tüm Ürünlerimiz</a>
+                            <a href="köpek.html" class="dropdown-item">Köpek</a>
+                            <a href="kedi.html" class="dropdown-item">Kedi</a>
+                            <a href="balık.html" class="dropdown-item">Balık</a>
+                            <a href="kuş.html" class="dropdown-item">Kuş</a>
+
+                        </div>
+                    </div>
+                    <a href="price.html" class="nav-item nav-link">Ödeme/Fiyat</a>
+                    <a href="booking.html" class="nav-item nav-link">Rezervasyon</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">Duyurular</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="blog.html" class="dropdown-item">Duyuru Izgarası</a>
+                            <a href="single.html" class="dropdown-item">Duyuru Detayı</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link" style="margin-left: 360px;">İletişim</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Detail Start -->
+    <div class="container py-5">
+        <div class="row pt-5">
+            <div class="col-lg-8">
+                <div class="d-flex flex-column text-left mb-4">
+                    <h1 class="mb-3 text-secondary">Duyuru Detayları</h1>
+                </div>
+
+                <div class="mb-5">
+                    <a name="baslik1"></a>
+                    <h2 class="mb-4">Kurtarılan bir can daha...</h2>
+                    <img class="img-fluid w-50 float-left mr-4 mb-3" src="img/blog-1.jpg" alt="Image">
+                    <p id="duyuru2">İstanbul Beylikdüzü’nde bir parkta sokak kedisi, başını demir parmaklıklara
+                        sıkıştırmış halde bulundu. Olay yerine gelen itfaiye ekipleri kediyi sıkıştığı yerden kurtardı.
+                        İstanbul Beylikdüzü’nde bir parkın demir parmaklıklarına kafasını sıkıştıran sokak kedisi,
+                        itfaiye ekipleri tarafından kurtarıldı. Kurtarma operasyonu ise cep telefonu kamerasıyla saniye
+                        saniye görüntülendi.
+                        Beylikdüzü Barış Mahallesi’nde dün sabah saatlerinde bir parkta sokak kedisi, başını demir
+                        parmaklıklara sıkıştırmış şekilde bulundu. Kedinin kafasını çıkaramadığını ve halsiz şekilde
+                        yattığını gören çevredeki vatandaşlar, durumu itfaiye ekiplerine ihbar etti. Olay yerine gelen
+                        itfaiye ekipleri kedinin sıkıştığı yerdeki demirleri, demir makası ile kesti. Yaklaşık bir
+                        dakika süren operasyonun ardından kurtarılan kedi, vatandaşlar tarafından veterinere
+                        götürülürken Yaşanan o anlar ise çevredeki bir cep telefonu kamerasıyla kaydedildi.
+                    </p>
+
+                    <a name="baslik2"></a>
+                    <h3 class="mb-4">"Köpek Nasıl Eğitilir?" Diye Merak Edenler İçin Detaylı Bir Köpek Eğitimi Rehberi
+                    </h3>
+                    <img class="img-fluid w-50 float-right ml-4 mb-3" src="img/blog-2.jpg" alt="Image">
+                    <p>Köpek sahibi olmak başlı başına bir sorumluluk. Ancak bu sorumluluk tek taraflı bir durum değil.
+                        Karşılıklı mutluluk için köpekten beklenen de bazı şeyler var. Bu noktada da "köpek eğitimi"
+                        konusu devreye giriyor.Tuvalet eğitimi için ilk önce köpeğimizin evin bir yerine yerleştirilen
+                        gazetelere mi yoksa yemekten sonra her sefer dışarı çıkarılınca mı tuvaletini yapmasını
+                        istediğimize karar veriyoruz. Buna ilk başta karar vermek lazım çünkü köpek alıştığı zaman
+                        değiştirmesi zor oluyor.benim ida'm 2 günlük ankara'ya ameliyat olmaya gittiğinde çok
+                        afedersiniz kakasını tutmuş ee geldiğinde dünyanın 8. harikasını gazetelerin üstüne bırakmıştı.
+                        bir köpek sahibi olduk ve köpeği ev içerisinde beslemeyi düşünüyoruz.işte bu durumda en büyük
+                        sorun köpeğin tuvaletidir. çünkü yavru köpek ihtiyacı geldiği anda oranın neresi olduğunu
+                        düşünmeden ihtiyacını giderecektir.buda evde gerçekten tahammülü zor bir koku oluşmasına neden
+                        olacaktır.eğitime başlamadan önce köpeğin bir sonraki tuvaletini gene daha önce yaptığı bir yere
+                        yapma ilkesinden hareket ederek köpeğimizin ev içerisine daha önce tuvalet yapıp yapmadığına
+                        bakarak başlayacağız. eğer köpek ev içerisinde herhangi bir yere tuvalet yapmamış ise sorun yok
+                        direk eğitime geçebiliriz. ama eğer köpek tuvaletini ev içerisinde biryerlere yapmış ise
+                        öncelikle yapmamız gereken bu yerlerin kökü ve pislik kalmayacak şekilde çok iyi
+                        temizlenmesidir.çünkü koku kaldığı takdirde eğitimin bir anlamı kalmayacak ve köpek koku olan
+                        yere tekrar tuvaletini yapacaktır. buda boşa harcanmış bir eğitim sürecini getirecektir.evi
+                        temizledik ve koku bırakmadık o zaman eğitim sürecine geçebiliriz.</p>
+
+                    <a name="baslik3"></a>
+                    <h2 class="mb-4">Köpeklerde en çok görülen 8 hastalık</h2>
+                    <a name="baslik3"></a>
+                    <img class="img-fluid w-50 float-left mr-4 mb-3" src="img/about-2.jpg" alt="Image">
+                    <p>Köpeğinizin bir rahatsızlığının olup olmadığını anlamanız için alışkanlıklarındaki değişikliklere
+                        dikkat etmeniz gerekir. Bazı semptomlar,kusma ya da ishal gibi gözle görülmez ; bunun yerine
+                        bazen yorgunluk, halsizlik, yeme alışkanlıklarında değişim gibi belirtilere rastlanabilir.
+                        Köpeklerde en çok görülen hastalıklar şunlardır:
+
+                        <br> <strong> 1-) Kulak İltihabı </strong> <br>
+                        <!--Biçimsel olarak koyu olarak gözükmeleri için "strong" etiketini kullandık-->
+
+                        Kulak iltihabı en çok İspanyol Cocker ve Bloodhound gibi uzun kulaklı köpek ırklarında görülür.
+                        Fakat sürekli ıslanan veya nemli kalan köpekleri de etkileyebilir.
+
+                        Eğer köpeğiniz sürekli kulaklarını kaşımaya çalışıyorsa ve kafasını sürekli sallıyorsa ya da
+                        evcil hayvanınız size yaklaştığında kulaklarında kötü kokan sarımsı bir sıvı tespit ederseniz,
+                        muhtemelen kulaklarında iltihap vardır.
+                        <span id="dots">...</span><span id="more">
+                            <br> <strong>2-) Köpek Gençlik Hastalığı</strong><br>
+
+                            Neyse ki, bu hastalığın aşısı var. Fakat oldukça bulaşıcı olan bu hastalık aşılanmamış veya
+                            henüz birkaç haftalık olan köpekler için ölümcül olabilir.
+
+                            Köpeklerde gençlik hastalığı bazı zamanlar teşhis edilemez, bu yüzden bu hastalığa bin
+                            semptomu olan hastalık da denilir : Öksürük,hapşırma,salya akması,ateş,ishal ve kaslarda
+                            seyirmeler bu hastalığın belirtilerinden bazılarıdır.
+
+                            <br><strong> 3-) Uyuz </strong> <br>
+
+                            Bir tür deri hastalığı olan uyuz, kedilerde, köpeklerde ve hatta insanlarda görülebilir.
+                            Uyuz, akar denilen mikroskobik bir parazitin cilde nufüz edip alt deriye bulaşmasıyla
+                            oluşur.
+
+                            Köpeklerde sık rastlanan iki tür uyuz vardır : Birincisi başka bir hayvanla temas sonucu
+                            oluşan sarcoptic uyuz, ikincisi ise bağışıklık sistemi ve genetikle bağlantılı olan
+                            demodectic uyuzdur.
+
+                            <br> <strong> 4-) İç Parazitler </strong><br>
+
+                            Köpekleri etkileyen en yaygın solucan grubu tenyalardır. Yatsı bir şekle sahip bu parazitler
+                            hayvanın bağırsaklarında bulunur ve tükettiği tüm gıdalarla beslenir. Bu hastalık bozulmuş,
+                            çiğ veya az pişmiş yiyeceklerin tüketilmesi sonucu oluşur.
+
+                            Köpeğinizin vücudundaki parazitleri yok etmek için güvendiğiniz bir veterinerin önerdiği
+                            tedavi yöntemini uygulamanız gerekir. Solucanlardan arındırmanız gerekenler sadece yavru
+                            köpekler değildir, yetişkin köpekler de parazitlerden kolayca etkilenebilir. Bazen,
+                            solucanlar köpeğin dışkısında görülebilir ve tespit edilebilir.
+
+                            <br><strong> 5-) Eklem İltihabı </strong><br>
+
+                            Yaşlı köpeklerde en çok görülen hastalıklardan biri eklem iltihabıdır. Ayrıca, Alman çoban
+                            köpeği ve Doberman gibi köpek ırklarını da etkileyebilir. Dahası, eklem iltihabı özellikle
+                            kalça ve dirseklerde iltihaplanma ve bozulmalara sebep olabilir. Bir köpeğin fazla kilolu
+                            veya hareketsiz olması, eklem iltihabı hastalığına yakalanma riskini artırır.
+
+                            <br> <strong> 6-) Parvovirüs ( Kanlı İshal ) </strong><br>
+
+                            Bu hastalık esas olarak hayvanın sindirim sistemini etkiler, fakat aynı zamanda kanlarındaki
+                            kırmızı kan hücrelerinin sayısında azalmaya neden olur ve kalp ve bağırsaklarının düzgün
+                            çalışmasını engeller.
+
+                            Köpeklerde kanlı ishalin belirtileri arasında kusma,iştahsızlık,dışkıda
+                            kan,yorgunluk,ishal,depresyon,halsizlik ve sıvı kaybı bulunur. Bu hastalık da aşı ile
+                            önlenebiliyor. Fakat bir veterinerin yapması gereken bu aşı, sadece yavru köpeklere
+                            yapılabiliyor.
+
+                            <br> <strong> 7-) Mide İltihabı </strong><br>
+
+                            Köpeklerde mide iltihabı düşündüğünüzden fazla görülür. Ve çoğu zaman evcil hayvan sahipleri
+                            bu hastalığın farkına varmaz. Temel olarak gastrit, mide mukozasının iltihabı veya
+                            tahrişidir. Yanlış beslenme sonucu oluşur: yetersiz beslenme, aşırı fazla porsiyonlar ya da
+                            hayvanının çok hızlı yemesi, çiğnemesi gibi.
+
+                            Köpeklerde mide iltihabının temel belirtileri kusma ve karında şişliktir,ancak iştah
+                            kaybı,kilo kaybı,enerji eksikliği ve aşırı tükürük üretimine de neden olabilir.
+
+                            <br> <strong> 8-] Leyişmanyaz </strong><br>
+
+                            Bu hastalık sineklerin ısırmasıyla bulaşır ve daha çok İspanya ve Avrupa’da görülür.
+                            Leyişmanyaz hastalığının belirtileri çok çeşitlidir ve bulaşmayı önlemek için en iyi yol,
+                            nedeni ortadan kaldırmaktır.
+
+                            İçi su dolu kapları dışarıda ağzı açık şekilde bırakmayın. Böylece böcekler yumurtalarını
+                            bırakmak için onları kullanamazlar. Sineklerin evinize girmemesi için kapılara ve
+                            pencerelere haşere kovucu sprey sıkın. Evcil hayvanlarınıza pipet yardımıyla sivrisineklere
+                            karşı bir ilaç verebilirsiniz.
+                        </span>
+                    </p>
+                    <button onclick="myFunction()" id="myBtn">Daha Fazla</button> <br>
+                    <br>
+
+                    <a name="baslik4"></a>
+                    <h3 class="mb-4">"Yavru Kedilerin İhtiyaç Duyduğu Aşılar Nelerdir?
+                    </h3> <a name="baslik4"></a>
+                    <img class="img-fluid w-50 float-right ml-4 mb-3" src="img/asikedi.jpg" alt="Image">
+                    <p>
+                        Kedinizin tedavisi çok zor ve ölümcül seyredebilen hastalıklara karşı antikor oluşturması
+                        yönünden hayati önem taşıyan aşılar içerisinde, normalde uygulanmayıp yalnızca özel durumlarda
+                        uygulananlar da vardır. Bundan dolayı aşılar kendi içerisinde core (zorunlu) ve non-core
+                        (zorunlu olmayan) olarak ikiye ayrılıyor. Birçoğu her sene bir kez tekrarlanan zorunlu aşılar,
+                        herhangi bir koşul gerektirmeksizin yapılması gerekiyor. Bu aşılar felin panlökopeni, felin
+                        herpesvirüs, felin kalisivirüs ve kuduzdur. Ülkemizde felin lösemi aşısı zorunlu olmayan aşılar
+                        kategorisindedir. Bunların yanında klamidya felis, bordetella ve FIV aşıları zorunlu olmayan
+                        aşılar kategorisindedir.
+                    </p><br>
+                    <p>Karma aşısı 3 veya 4 doz şeklinde uygulanabilir. Aynı aşının iki dozu arasında maksimum 21 gün
+                        olmalıdır. Aşıların 2. dozuyla birlikte vücuttaki antikor seviyesinin maksimuma çıkması
+                        amaçlanmaktadır. Gerektiğinden daha uzun süre geçmiş aşıların tekrarlanması gerekir. Bu da
+                        kediniz üzerinde ekstra bir aşı yükü oluşturmaya sebep olmaktadır.</p>
+                    <br>
+
+                    <a name="baslik5"></a>
+                    <h2 class="mb-4">Evde Balık Beslemenin 7 Püf Noktası</h2>
+                    <img class="img-fluid w-50 float-left mr-4 mb-3" src="img/balıkbesleme.jpg" alt="Image">
+                    <p>
+                        Öncelikle fanus yerine bir akvaryum tercih etmenin daha doğru olacağına ikna olmakta fayda var.
+                        Sonrasında balığın cins ve karakterine göre bir yaşam alanı oluşturun.
+                        Balığın günde kaç defa, ne miktarda yem ile beslenmesi gerektiğini iyi belirlemeniz
+                        gerekmektedir. Kararında belirlenmeyen yem miktarı, balığın ölümüne bile neden olabilir, bu
+                        nedenle özenli olmakta fayda vardır.
+                        Kalitesiz ve açık yemler, sağlıksız bir şekilde beslenmelerine neden olacaktır. Küçük ya da pul
+                        şeklinde olan kaliteli yemleri tercih ederek balığın direncini çoğaltıp daha sağlıklı olmasına
+                        yardımcı olabilirsiniz.
+                        Balığı ister akvaryum ister fanusta yetiştiriyor olun her şekilde suyun kalitesinin önemli
+                        olduğunu unutmayın. İçilebilir ve klor barındırmayan bir su kullanmakta ısrarcı olun.Akvaryum ya
+                        da fanusun içerisine gereksiz yere elinizi sokmak, balığın ürküp strese girmesine neden
+                        olacaktır. Her ne kadar zaman zaman onunla temas içinde olmayı isteseniz bile bu durumun onun
+                        için iyi olmadığını unutmamalısınız. Akvaryum ya da fanus suyunun en az haftada bir kez
+                        değişmesi gerekmektedir. Balıkların huzur ve sağlık içinde yüzebilmesi için suyun temizliği
+                        oldukça önemlidir. Su değişiminin yanı sıra temizliğin daha detaylı olabilmesi için temizleyici
+                        bir filtre edinmekte fayda vardır. Filtreyi akvaryum boyutuna göre seçmeye özen gösterin.
+                        Balığın yalnız kalmasına gönlünüz razı olmuyor, yeni bir arkadaş edinmesini istiyorsanız yeni
+                        balığın sağlıklı olmasına dikkat etmelisiniz. Hasta bir yeni balık diğer balığın da hasta
+                        olmasına neden olacak işleri oldukça zorlaştıracaktır.
+                    </p>
+
+                </div>
+
+
+
+
+
+                <div class="media bg-light mb-5 p-4 p-md-5">
+                    <img src="img/kadın.jpg" alt="Image" class="img-fluid mr-4 mt-1" style="width: 80px;">
+                    <div class="media-body">
+                        <h5 class="mb-3">Kübra Emek</h5>
+                        <p class="m-0">3 gün önce orta boy bir akvaryum ve 10'a yakın balık alıp beslemeye başladım.
+                            Süslü püslü
+                            akvaryumları, içinde bitkileri, taşları ve suya hava gönderen bir aletleri var. (oksijen
+                            ve suyun temizlenmesi için sanırım?) Beslenmelerinde de sorun yok. Fakat her sabah
+                            kalktığımda 1-2 balık ölmüş oluyor. Suyun dezenfekte edilmesi için kullandığım mürekkep
+                            benzeri bir ilaç var. Bununla ilgili olabilir mi ölümleri? Ya da neden?</p>
+                    </div>
+                </div>
+
+                <div class="mb-5">
+                    <h3 class="mb-4">3 Yorum</h3>
+                    <div class="media mb-4">
+                        <img src="img/user.jpg" alt="Image" class="img-fluid mr-3 mt-1" style="width: 45px;">
+                        <div class="media-body">
+                            <h6>Ahmet Yılmaz <small><i>01 Mart 2022/12:00</i></small></h6>
+                            <p>Merhabalar <br>
+                                6 ay önce 3 aylık yavru olan rus finosu cinsi köpeğimi eğitemiyordum . Sadece
+                                tuvalet eğitimi verdim mamasını dahi kendi yemiyor elimle yedirmek zorunda kalıyorum .
+                                Gel , dur , hayır gibi komutların hiçbirini aktaramadım hayvana internette okuduklarımın
+                                hepsini denedim. Özellikle mama yedirememem ve gel komutunu öğretememem çok sorun
+                                yaratıyordu.</p>
+
+                        </div>
+                    </div>
+                    <div class="media mb-4">
+                        <img src="img/kadın.jpg" alt="Image" class="img-fluid mr-3 mt-1" style="width: 45px;">
+                        <div class="media-body">
+                            <h6>Kübra Emek <small><i>12 Şubat 2022/15:20</i></small></h6>
+                            <p>3 gün önce orta boy bir akvaryum ve 10'a yakın balık alıp beslemeye başladım. Süslü püslü
+                                akvaryumları, içinde bitkileri, taşları ve suya hava gönderen bir aletleri var. (oksijen
+                                ve suyun temizlenmesi için sanırım?) Beslenmelerinde de sorun yok. Fakat her sabah
+                                kalktığımda 1-2 balık ölmüş oluyor. Suyun dezenfekte edilmesi için kullandığım mürekkep
+                                benzeri bir ilaç var. Bununla ilgili olabilir mi ölümleri? Ya da neden?</p>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div style="padding: 30px; background: #f6f6f6;">
+                    <h3 class="mb-4">Yorum Yazın</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">İsim *</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail *</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mesaj *</label>
+                            <textarea id="message" cols="30" rows="5" class="form-control"></textarea>
+                        </div>
+                        <div class="form-group mb-0">
+                            <input type="submit" value="Gönder" class="btn btn-primary px-3">
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-5 mt-lg-0">
+                <div class="mb-5">
+                    <form action="">
+                        <div class="input-group">
+                            <input type="text" class="form-control form-control-lg" placeholder="Ara">
+                            <div class="input-group-append">
+                                <span class="input-group-text bg-transparent text-primary"><i
+                                        class="fa fa-search"></i></span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+
+                <div class="mb-5">
+                    <h3 class="mb-4">En Son Duyurular</h3>
+                    <div class="d-flex align-items-center border-bottom mb-3 pb-3">
+                        <img class="img-fluid" src="img/blog-1.jpg" style="width: 80px; height: 80px;" alt="">
+                        <div class="d-flex flex-column pl-3">
+                            <a class="text-dark mb-2" href="#baslik1">Kurtarılan bir can daha...</a>
+                            <div class="d-flex">
+                                <small class="mr-3"><i class="fa fa-user text-muted"></i> PetLover</small>
+
+                                <small class="mr-3"><i class="fa fa-comments text-muted"></i> 3</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center border-bottom mb-3 pb-3">
+                        <img class="img-fluid" src="img/blog-2.jpg" style="width: 80px; height: 80px;" alt="">
+                        <div class="d-flex flex-column pl-3">
+                            <a class="text-dark mb-2" href="#baslik2">"Köpek Nasıl Eğitilir?" Diye Merak Edenler İçin
+                                Detaylı Bir Köpek Eğitimi Rehberi</a>
+                            <div class="d-flex">
+                                <small class="mr-3"><i class="fa fa-user text-muted"></i> PetLover</small>
+
+                                <small class="mr-3"><i class="fa fa-comments text-muted"></i> 3</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center border-bottom mb-3 pb-3">
+                        <img class="img-fluid" src="img/blog-3.jpg" style="width: 80px; height: 80px;" alt="">
+                        <div class="d-flex flex-column pl-3">
+                            <a class="text-dark mb-2" href="#baslik3">Köpeklerde en çok görülen 8 hastalık</a>
+                            <div class="d-flex">
+                                <small class="mr-3"><i class="fa fa-user text-muted"></i> PetLover</small>
+
+                                <small class="mr-3"><i class="fa fa-comments text-muted"></i> 3</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center border-bottom mb-3 pb-3">
+                        <img class="img-fluid" src="img/asikedi.jpg" style="width: 80px; height: 80px;" alt="">
+                        <div class="d-flex flex-column pl-3">
+                            <a class="text-dark mb-2" href="#baslik4">"Yavru Kedilerin İhtiyaç Duyduğu Aşılar
+                                Nelerdir?</a>
+                            <div class="d-flex">
+                                <small class="mr-3"><i class="fa fa-user text-muted"></i> PetLover</small>
+
+                                <small class="mr-3"><i class="fa fa-comments text-muted"></i> 3</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center border-bottom mb-3 pb-3">
+                        <img class="img-fluid" src="img/balıkbesleme.jpg" style="width: 80px; height: 80px;" alt="">
+                        <div class="d-flex flex-column pl-3">
+                            <a class="text-dark mb-2" href="#baslik5">Evde Balık Beslemenin 7 Püf Noktası</a>
+                            <div class="d-flex">
+                                <small class="mr-3"><i class="fa fa-user text-muted"></i> PetLover</small>
+
+                                <small class="mr-3"><i class="fa fa-comments text-muted"></i> 3</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Detail End -->
+
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white mt-5 py-5 px-sm-3 px-md-5">
+        <div class="row pt-5">
+            <div class="col-lg-4 col-md-12 mb-5">
+                <h1 class="mb-3 display-5 text-capitalize text-white"><span class="text-primary">Pet</span>Lover</h1>
+                <p class="m-0">PetLover'a duyduğunuz güven için teşekkür ederiz.
+                    PetLover hızlı ve güvenli alışveriş yapabilmeniz için gerekli tüm teknolojik donanıma sahiptir.
+                    PetLover hedefi istediğiniz ürünleri sorunsuz, güvenli, ekonomik ve en hızlı şekilde sizlere
+                    ulaştırmaktır. PetLover'a duyduğunuz güven için teşekkür ederiz.
+                    PetLover müşteri memnuniyeti konusundaki hassasiyetini arttırarak sürdürecektir.
+                </p>
+            </div>
+            <div class="col-lg-8 col-md-12">
+                <div class="row">
+                    <div class="col-md-4 mb-5">
+                        <h5 class="text-primary mb-4">İletişimde Kalın</h5>
+                        <p><i class="fa fa-map-marker-alt mr-2"></i>Kocaeli/İzmit Umuttepe</p>
+                        <p><i class="fa fa-phone-alt mr-2"></i>+012 345 67890</p>
+                        <p><i class="fa fa-envelope mr-2"></i>petLover@example.com</p>
+                        <div class="d-flex justify-content-start mt-4">
+                            <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                                style="width: 36px; height: 36px;" href="https://twitter.com/"><i
+                                    class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                                style="width: 36px; height: 36px;"
+                                href="https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjY4ODA3NjM3LCJjYWxsc2l0ZV9pZCI6MjY5NTQ4NDUzMDcyMDk1MX0%3D"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                                style="width: 36px; height: 36px;" href="https://www.linkedin.com/feed/"><i
+                                    class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                                style="width: 36px; height: 36px;" href="https://www.instagram.com/accounts/login/"><i
+                                    class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-5">
+                        <h5 class="text-primary mb-4">Web Sitesi Linklerimiz</h5>
+                        <div class="d-flex flex-column justify-content-start">
+                            <a class="text-white mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>Ana
+                                Sayfa</a>
+                            <a class="text-white mb-2" href="about.html"><i
+                                    class="fa fa-angle-right mr-2"></i>Hakkımızda</a>
+                            <a class="text-white mb-2" href="service.html"><i
+                                    class="fa fa-angle-right mr-2"></i>Ürünlerimiz</a>
+                            <a class="text-white" href="contact.html"><i class="fa fa-angle-right mr-2"></i>İletişime
+                                Geçin</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-5">
+                        <h5 class="text-primary mb-4">Bize Ulaşın</h5>
+                        <form action="">
+                            <div class="form-group">
+                                <input type="text" class="form-control border-0" placeholder="Adınız"
+                                    required="required" />
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control border-0" placeholder="E-mail Adresiniz"
+                                    required="required" />
+                            </div>
+                            <div>
+                                <button class="btn btn-lg btn-primary btn-block border-0" type="submit">Gönder</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid text-white py-4 px-sm-3 px-md-5" style="background: #111111;">
+        <div class="row">
+            <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
+                <p class="m-0 text-white">
+                    &copy; <a class="text-white font-weight-bold" href="#">PetLover</a>. All Rights Reserved. Designed
+                    by
+                    <a class="text-white font-weight-bold" href="https://htmlcodex.com">HTML Codex</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
